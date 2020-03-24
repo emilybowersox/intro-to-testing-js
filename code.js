@@ -3,7 +3,12 @@ function helloWorld() {
     return "Hello, World!";
 }
 
-function sayHello(input) {
+
+// come back.... i got stuck
+function sayHello() {
+    if (input = " " {
+        return "Hello, World!"
+    } else {
     return "Hello, " + input + "!";
     // if (input === "Alex") {
     //     return "Hello, Alex!"

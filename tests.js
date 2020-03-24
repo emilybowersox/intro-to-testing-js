@@ -15,6 +15,7 @@ describe('helloWorld', function() {
 });
 
 
+// come back i got stuck....
 describe ('sayHello', function () {
     it('should be a defined function', function () {
         expect(typeof sayHello).toBe('function');
@@ -22,13 +23,25 @@ describe ('sayHello', function () {
     it('should return a string when called', function () {
         expect(typeof sayHello()).toBe("string");
     });
-    it('sayHello("Jane") should return "Hello, Jane!', function () {
+    it('sayHello() should return "Hello, Jane!"', function () {
         expect(sayHello()).toBe("Hello, Jane!");
     });
-    it('sayHello("Alex") should return "Hello, Alex!', function () {
+    it('sayHello("Alex") should return "Hello, Alex!"', function () {
         expect(sayHello("Alex")).toBe("Hello, Alex!");
     });
-    it('sayHello("Pat") should return "Hello, Pat!', function () {
+    it('sayHello("Pat") should return "Hello, Pat!"', function () {
         expect(sayHello("Pat")).toBe("Hello, Pat!");
     });
+    it('sayHello() should return "Hello, World!"', function () {
+        expect(sayHello()).toBe("Hello, World!")
+    });
 });
+
+
+
+describe('isFive', function () {
+    it('should be an existing function', function () {
+        expect(typeof isFive).toBe('function');
+    });
+})
+
